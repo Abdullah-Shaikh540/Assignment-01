@@ -1,0 +1,170 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: greenyellow;
+}
+/* Styles for the updated header layout */
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.navbar-nav {
+    margin-right: 0; /* Remove default right margin */
+}
+
+.nav-item {
+    margin-left: 20px; /* Adjust spacing between navigation items */
+}
+
+/* Center align text in header on smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        text-align: center;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+    .nav-item {
+        margin-left: 0; /* Remove left margin for small screens */
+        margin-top: 10px; /* Add spacing between navigation items for small screens */
+    }
+}
+
+/* About Me Section Styles */
+
+#about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* Modify the profile image to be circular */
+
+#about img {
+    border-radius: 50%;
+}
+
+
+#about p {
+    font-size: 18px;
+    color: #333;
+}
+
+.about-me {
+    /* Additional styling for the section */
+    padding: 20px; /* Add padding for spacing */
+    color: black; /* Set text color to white for better readability */
+  }
+  
+
+
+/* Portfolio Section Styles */
+#portfolio {
+    background-color:lemonchiffon; /* Change the background color to black */
+    padding: 60px 0;
+}
+
+/* Card Styles (if needed) */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Title Styles (if needed) */
+.card-title {
+    font-size: 20px;
+}
+
+#portfolio-word {
+    color:black;
+}
+
+/* Styles for the Skills Section */
+
+/* Add some spacing and styling to the progress bars */
+.progress {
+    margin-bottom: 15px;
+}
+
+/* Style the progress bars */
+.progress-bar {
+    background-color: black; /* Blue color for the progress bars */
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Increase font size for skill category headings */
+h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Center-align the skill category headings on small screens */
+@media (max-width: 768px) {
+    h4 {
+        text-align: center;
+    }
+}
+
+#skills {
+    color:white;
+}
+/* Contact Section Styles */
+#contact {
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    margin-bottom: 15px;
+}
+
+#contact ul li i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #007bff; /* Use the color of your choice */
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007bff; /* Use the color of your choice */
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #319386;
+    color: whitesmoke; /* Change the text color to white */
+    padding: 20px 0;
+}
